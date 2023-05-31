@@ -1,0 +1,90 @@
+.inicio {
+    background-color: rgb(228, 215, 225);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    display: inline;
+    padding: 5%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: end;
+    margin: 3%;
+}
+.titulo {
+
+    text-decoration: underline;
+    text-indent: 1%;
+    
+
+}
+
+.subtitulo {
+    font-weight: bold;
+
+}
+
+
+.descripcion{
+    font-style: italic;
+
+}
+
+.h2Fondo {
+    background-color: darkorchid;
+}
+
+.imagenVeterinaria {
+    width: 100%;
+}
+
+.videoBlooper{
+    width: 80%;
+    height: 500PX;
+    margin: 2%;
+}
+
+
+
+/* Estilos de la pag Contato */
+
+.Contacto {
+    background-image: url(Imagenes/perro\ con\ tel2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titContacto {
+    text-align: center;
+    background-color: #e5dd7a;
+    color: darkcyan;
+    font-size: 1.4em
+}
+
+.formulario {
+    margin: 5%;
+}
+
+
+.boton {
+    width: 200px;
+    height: 38px;
+    font-size: 0.8em;
+}
+
+.boton:hover {
+    width: 230px;
+    height: 40px;
+    font-size: 0.9em;
+    transition: 2s;
+}
+
+.botonMail {
+    display: block;
+}
+
+

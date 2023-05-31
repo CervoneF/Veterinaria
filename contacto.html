@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Veterinaria Insta Pet</title>
+</head>
+
+<body class="Contacto">
+    <nav>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li ><a href="#mail">Mandar mail</a></li>
+            <li ><a href="index.html#ubicacion">Ubicación</a></li>
+            
+        </ul>
+    </nav>
+
+    <h1 class="titContacto">Dejanos toda la información para que podamos conocerlo</h1>
+
+    <form class="formulario" action="https://formspree.io/f/mzbqwyvk" method="post">
+        <label>Nombre:
+            <input type="text" name="nombre" placeholder="Nombre de la mascosta">
+        </label>
+        <br>
+        <br>
+        <label for="edad">Edad:</label>
+        <input id="edad" type="number" name="edad" placeholder="Edad de la mascosta">
+        <br>
+        <br>
+        <label>E-mail:
+            <input type="email" name="email" placeholder="Ingrese el correo electrónico">
+        </label>
+        <br>
+        <br>
+        <label for="password">Contraseña:</label>
+        <input id="password" type="password" name="password" placeholder="Ingrese la contraseña">
+        <br>
+        <br>
+        <label for="muestrario">Color de tu mascosta:</label>
+        <input type="color" value="#000000" id="muestrario">
+        <br>
+        <br>
+        <label>¿Qué genero es tu mascota?</label>
+        <br>
+        <br>
+        <label><input type="radio" name="genero" value="macho">Macho</label>
+        <label><input type="radio" name="genero" value="hembra">Hembra</label>
+        <br>
+        <br>
+        <label for="tipoMascota">¿Qué tipo de mascota tienes?</label>
+        <select name="tipoMascota" id="tipoMascota">
+            <option value="dog">Perro</option>
+            <option value="cat">Gato</option>
+            <option value="tortoise">Tortuga</option>
+            <option value="rabbit">Conejo</option>
+        </select>
+        <br>
+        <br>
+        <label for="descripcion">Describe a tu mascota</label>
+        <br>
+        <br>
+        <textarea id="descripcion" name="descripcion" rows="10" cols="40"
+            placeholder="Aqui dinos como es tu mascota"></textarea>
+        <br>
+        <br>
+        <label><input name="basesYcondiciones" type="checkbox" value="acepta">Acepta las bases y condiciones</label>
+        <br>
+        <br>
+        <label>
+            <input class="boton" type="submit" name="boton" placeholder="Nombre de la mascosta">
+        </label>
+        
+        <br>
+        <br>
+    </form>
+    
+    <a class="botonMail" href="mailto:mfc.mdp86@gmail.com"><button id="mail" class="boton">Mandar mail</button></a>
+    <br>
+    <hr>
+    <br>
+    <a href="index.html"><button class="boton">Volver</button></a>
+
+</body>
+
+</html>
